@@ -2,7 +2,7 @@
 
 博客搬到GitHub issue了，点此阅读：
 
-<p><a href="https://github.com/Lojze/Lojze.github.io/issues"><img src="https://cloud.githubusercontent.com/assets/1231359/13027636/6fdae1a6-d291-11e5-9126-68bd3d2ed778.png" alt="立即阅读" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/Lojze/bolg/issues"><img src="https://cloud.githubusercontent.com/assets/1231359/13027636/6fdae1a6-d291-11e5-9126-68bd3d2ed778.png" alt="立即阅读" style="max-width:100%;"></a></p>
 
 #简介/About
 
