@@ -17,6 +17,7 @@
 *  纯css+html效果: [CSSDeck](http://cssdeck.com)
 *  css兼容查询：[http://caniuse.com/](http://caniuse.com/)
 *  测试网站性能：[webpagetest.org](http://www.webpagetest.org/)
+*  [百度前端技术学院:](https://github.com/baidu-ife/ife)
 
 ##有问题？联系我  
 
