@@ -15,6 +15,8 @@
 *  520UED巴士站: [腾讯大神博客](http://www.520ued.com/)
 *  腾讯全端: [AlloyTeam](http://www.alloyteam.com/)
 *  纯css+html效果: [CSSDeck](http://cssdeck.com)
+*  css兼容查询：[http://caniuse.com/](http://caniuse.com/)
+*  测试网站性能：[webpagetest.org](http://www.webpagetest.org/)
 
 ##有问题？联系我  
 
