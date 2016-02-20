@@ -19,6 +19,7 @@
 *  测试网站性能：[webpagetest.org](http://www.webpagetest.org/)
 *  [百度前端技术学院:](https://github.com/baidu-ife/ife)
 *  [javascript列子](http://fgm.cc/learn/)
+*  JavaScript提问的地方：[segmentfault](https://segmentfault.com/t/javascript)
 
 ##有问题？联系我  
 
