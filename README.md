@@ -21,6 +21,10 @@
 *  [javascript列子](http://fgm.cc/learn/)
 *  JavaScript提问的地方：[segmentfault](https://segmentfault.com/t/javascript)
 
+## 前端插件
+
+*  [jwplayer](https://www.jwplayer.com/) 一个视频插件
+
 ##有问题？联系我  
 
 发现有问题，欢迎反馈给我，可以用以下联系方式跟我交流
