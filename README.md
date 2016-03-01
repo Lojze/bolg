@@ -25,6 +25,10 @@
 
 *  [jwplayer](https://www.jwplayer.com/) 一个视频插件
 
+## 框架
+* [ionichina中文社区](http://ionichina.com/) 混合式开发app的框架很强大
+* [nodejs中文社区](http://cnodejs.org) nodejs中文社区
+
 ##有问题？联系我  
 
 发现有问题，欢迎反馈给我，可以用以下联系方式跟我交流
