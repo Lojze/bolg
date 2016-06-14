@@ -21,6 +21,7 @@
 *  [百度前端技术学院:](https://github.com/baidu-ife/ife)
 *  [javascript列子](http://fgm.cc/learn/)
 *  JavaScript提问的地方：[segmentfault](https://segmentfault.com/t/javascript)
+*  h5效果：http://fff.cmiscm.com/#!/main
 
 ## 前端插件
 
