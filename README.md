@@ -26,6 +26,7 @@
 ## 前端插件
 
 *  [jwplayer](https://www.jwplayer.com/) 一个视频插件
+*  [jPlayer](http://jplayer.org/) h5 完美兼容ie6，`视频``音频`
 
 ## 框架
 * [ionichina中文社区](http://ionichina.com/) 混合式开发app的框架很强大
