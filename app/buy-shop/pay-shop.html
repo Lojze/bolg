@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付订单</title>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="format-detection" content="adress=no">
+    <script src="../public-js/flexible.min.js"></script>
+    <script src="../public-js/zepto.min.js"></script>
+    <link rel="stylesheet" href="../public-css/normalize.css">
+    <link rel="stylesheet" href="buy-shop.min.css">
+</head>
+<body>
+<header class="header-main">
+    <a href="javascript:" class="iconfont icon-fanhui"></a>
+    支付订单
+</header>
+<section class="pay-shop-section">
+    <!--<div class="pay-total clearfix">-->
+        <!--<span class="pay-span-left">-->
+            <!--<h3>商品合计</h3>-->
+            <!--<p>您将花费5夺宝币购买一种商品，要及时完成支付哦~</p>-->
+        <!--</span>-->
+        <!--<span class="pay-span-right">-->
+            <!--<em>5</em>夺宝币-->
+        <!--</span>-->
+    <!--</div>-->
+    <!--<div class="pay-red">-->
+        <!--<span class="clearfix">-->
+            <!--<h3>商品合计</h3>-->
+            <!--<p>有一个可用红包</p>-->
+        <!--</span>-->
+        <!--<ul class="clearfix">-->
+            <!--<li>-->
+                <!--<div class="red-mony">-->
+                    <!--<img src="../public-img/red-bao.png" alt="">-->
+                    <!--<em>￥<i>2</i></em>-->
+                <!--</div>-->
+                <!--<p>新人专享红包</p>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="red-mony">-->
+                    <!--<img src="../public-img/red-bao.png" alt="">-->
+                    <!--<em>￥<i>13</i></em>-->
+                <!--</div>-->
+                <!--<p>新人专享红包</p>-->
+            <!--</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+    <div class="pay-choose">
+        <div class="pay-choose-title clearfix">
+            <span class="choose-title-left">
+                <h3>余额支付</h3>
+                <p>(余额：0元)</p>
+            </span>
+            <span class="choose-title-right">
+                <input type="hidden" value="1" id="choose">
+                <img src="../public-img/choose-1.png" class="choose-btn" alt="">
+            </span>
+        </div>
+        <ul class="pay-choose-ul">
+            <input type="hidden" name="pay" value="1" class="pay">
+            <li class="clearfix">
+                <span class="pay-li-l">
+                    <img src="../public-img/choose-webchat.png" alt="">
+                    <h3>微信支付</h3>
+                </span>
+                <span class="pay-span-r">
+                    <img src="../public-img/radio-1.png" alt="" class="pay-radio-weChat">
+                </span>
+            </li>
+            <li class="clearfix">
+                <span class="pay-li-l clearfix">
+                    <img src="../public-img/choose-apy.png" alt="">
+                    <h3>支付宝支付</h3>
+                </span>
+                <span class="pay-span-r">
+                    <img src="../public-img/radio-2.png" alt="" class="pay-radio-wePay">
+                </span>
+            </li>
+        </ul>
+        <div class="pay-choose-data clearfix">
+            <span class="choose-data-left">
+                <h3>总计支付</h3>
+                <p><em></em>您没有使用红包</p>
+            </span>
+            <span class="choose-data-right">
+                <em class="red">5</em>夺宝币
+            </span>
+        </div>
+    </div>
+    <div class="pay-btn">
+        确认支付
+    </div>
+</section>
+<script src="../public-js/main.js"></script>
+<script>
+    (function () {
+        var choose_btn = $(".choose-btn");
+        choose_btn[CLICK](function () {
+            var chosse = $("#choose").val();
+            if(chosse == 1){
+                choose_btn.attr('src','../public-img/choose-2.png');
+                $("#choose").val(2);
+            }else{
+                choose_btn.attr('src','../public-img/choose-1.png');
+                $("#choose").val(1);
+            }
+        });
+
+        //选择支付
+        function db_zhifuM(type){
+            if(type==1){
+                $('.pay-radio-weChat').attr('src','../public-img/radio-1.png');
+                $('.pay-radio-wePay').attr('src','../public-img/radio-2.png');
+                $('.pay').val(1);
+            }else if(type==2){
+                $('.pay-radio-weChat').attr('src','../public-img/radio-2.png');
+                $('.pay-radio-wePay').attr('src','../public-img/radio-1.png');
+                $('.pay').val(2);
+            }
+        }
+        $(".pay-radio-weChat")[CLICK](function(){
+            db_zhifuM(1);
+        });
+        $(".pay-radio-wePay")[CLICK](function(){
+            db_zhifuM(2);
+        });
+
+        $(".pay-btn")[CLICK](function () {
+            if($('.pay').val() == 1){
+                window.location="oytrtapp://chooseType:2";
+//                console.log("oytrtapp://chooseType:2")
+            }else{
+                window.location="oytrtapp://chooseType:1";
+//                console.log("oytrtapp://chooseType:1")
+            }
+
+        });
+        var money = getQueryString("money");
+        $(".choose-data-right em").html(money);
+        //  想
+    })();
+</script>
+</body>
+</html>

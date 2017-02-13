@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>奖品详情</title>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="format-detection" content="adress=no">
+    <script src="../public-js/flexible.min.js"></script>
+    <script src="../public-js/swiper.min.js"></script>
+    <script src="../public-js/zepto.min.js"></script>
+    <script src="../public-css/iconfont.js"></script>
+    <link rel="stylesheet" href="../public-css/normalize.css">
+    <link rel="stylesheet" href="buy-shop.min.css">
+    <link rel="stylesheet" href="../public-css/swiper.min.css">
+</head>
+<body>
+<header class="header-main lottery-header">
+    <span class="lottery-top">
+        <a href="javascript:" class="iconfont icon-fanhui"></a>
+    </span>
+    <span class="lottery-right">
+        <!--购物-->
+        <em class="lottery-now-shop" ><i class="iconfont icon-iconfont02"></i></em>
+        <!--详情，消息中心，返回首页-->
+        <em href="javascript:void(0)"><i class="iconfont icon-shouye-copy"></i></em>
+    </span>
+</header>
+<section class="lottery-section">
+    <div class="swiper-container lottery-banner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="../public-img/banner.png">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="lottery-title">
+        <span>【中国黄金】AU9999投资金50g薄片</span>
+        <span class="red" title="中国黄金投资金条50g">中国黄金投资金条50g</span>
+    </div>
+    <!--开奖倒计时显示-->
+    <div class="lottery-time clearfix">
+        <div class="lottery-time-left">
+            <p class="lottery-timeang">期号：311170792</p>
+            <p class="lottery-now-time">揭晓倒计时<b class="time_ls">12:17:00</b></p>
+        </div>
+        <div class="lottery-time-right">
+            <a href="javascript:void(0)">计算详情</a>
+        </div>
+    </div>
+    <div class="lottery-hot-box">
+        <!--中奖之后显示中奖号码-->
+        <div class="lottery-hot">
+            <div class="lottery-hot-left">
+                <a href="javascript:void(0)">
+                    <img src="../public-img/geren-logo.png" alt="">
+                </a>
+            </div>
+            <div class="lottery-hot-m">
+                <p>获得者：<a class="blue" href="javascript:void(0)">爱要坦荡荡</a></p>
+                <p>用户ip：183.162.17.152(南京)</p>
+                <p>期号：3111170659</p>
+                <p>用户ID：1313131313(唯一不变标识)</p>
+                <p>本期参与：<em class="red">1000</em>人次</p>
+                <p>揭晓时间：2016-11-17 13:34:00.000s</p>
+            </div>
+            <div class="lottery-hot-r">
+                <!--<i class="iconfont icon-medal"></i>-->
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-medal"></use>
+                </svg>
+            </div>
+        </div>
+        <!--中奖之后显示幸运号码-->
+        <div class="lottery-hot-lucky">
+            <p>幸运号码：<b>10011362</b></p>
+            <a href="javascript:void(0)">计算详情</a>
+        </div>
+    </div>
+    <!--没有登录显示登录方式-->
+    <div class="lottery-logo">
+        <a class="blue" href="javascript:void(0)">请登录</a>，查看你的夺宝号码！
+    </div>
+    <div class="honor-record">
+        <span class="honor-record-list">
+            <a class="details-sun-shop" href="javascript:void(0)">晒单分享</a>
+            <i class="iconfont icon-qianjin"></i>
+        </span>
+        <span class="honor-record-list details-old-q">
+            <a href="javascript:void(0)">往期揭晓</a>
+            <i class="iconfont icon-qianjin"></i>
+        </span>
+        <span class="honor-record-list details-old-participation">
+            <a href="javascript:void(0)">本期参与记录</a>
+            <i class="iconfont icon-qianjin"></i>
+        </span>
+    </div>
+    <div class="honor-footer">
+        <i class="iconfont icon-arrowup"></i>上拉图文详情
+    </div>
+</section>
+
+<!--购物弹出层-->
+<div class="w-pay-shop" style="transform: translate3d(0, 100%, 0)">
+    <div class="w-pay-title">
+        <h2>夺宝有风险，参与需谨慎</h2>
+        <em class="w-pay-btn"></em>
+    </div>
+    <div class="w-participate">
+        <h3 class="participate-title">参与人次</h3>
+        <div class="participate-operation">
+            <span class="operation-subtract">-</span>
+            <input class="operation-input red" value="1" type="number">
+            <span class="operation-add">+</span>
+        </div>
+        <p class="red participate-describe">10元/人次</p>
+        <p class="red participate-describe">单期累计上限500人次</p>
+        <ul class="participate-ul">
+            <li>5</li>
+            <li>10</li>
+            <li>15</li>
+            <li>20</li>
+        </ul>
+    </div>
+    <div class="w-total">共<em class="red total-lang">1</em>元</div>
+    <div class="w-total-btn">立即购买</div>
+</div>
+<!--结算-->
+<div class="w-popup" style="transform: translate3d(0, 100%, 0);">
+    <ul>
+        <li><h3>结算</h3><em class="popup-colse"></em></li>
+        <li><span class="popup-left">应付总额</span><span class="popup-right">￥1.00</span></li>
+        <li><span class="popup-left">红包抵扣</span><span class="popup-right"><i class="popup-font">暂无可用红包</i>-￥0</span></li>
+        <li><span class="popup-left">余额抵扣</span><span class="popup-right"><i class="popup-font">账户余额:0夺宝币</i>-￥0</span></li>
+        <li class="w-harArr"><span class="popup-left">支付方式</span><span class="popup-right popup-text">支付宝<i class="icon-bg"></i></span></li>
+        <li><span class="popup-left">还需支付</span><span class="red popup-right blod">￥1.00</span></li>
+        <li><p>确认支付</p></li>
+    </ul>
+</div>
+<!--选择支付方式-->
+<div class="w-pay-list" style="transform: translate3d(0, 100%, 0);">
+    <div class="w-pay-title">
+        <h2>支付方式</h2>
+        <em class="w-pay-down"></em>
+    </div>
+    <ul class="w-pay-list-box">
+        <li><img src="../public-img/choose-webchat.png" alt=""><h3>微信</h3></li>
+        <li><img src="../public-img/choose-apy.png" alt=""><h3>支付宝</h3></li>
+    </ul>
+</div>
+<div class="w-mask w-mask-lower" style="transform: translate3d(0, 100%, 0)"></div>
+<script src="../public-js/main.js"></script>
+<script src="../public-js/lottery.js"></script>
+</body>
+</html>

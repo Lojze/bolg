@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情图</title>
+    <style>
+        body{
+            position: relative;
+        }
+        .header-main{
+            position: fixed;
+            line-height: 30px;
+            font-size: 14px;
+            text-align: center;
+            width: 100%;
+            background: #f7f7f7;
+            color: #000;
+            border-bottom: 1px solid #ccc;
+        }
+        em{
+            position: absolute;
+            left: 10px;
+            top: 2px;
+            font-size: 14px;
+            font-style: normal;
+        }
+        p{
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<header class="header-main">
+    <em><</em>
+    商品详情图
+</header>
+<script src="../public-js/zepto.min.js"></script>
+<script src="../public-js/main.js"></script>
+<script>
+    var gid = getQueryString("gid");
+    var url = ip+ 'goods/findSingleIndexGoodsDetail';
+    var $data = {gid:gid};
+    $.post(url,$data, function (res) {
+        $(document.body).append(res.goodsImg)
+    });
+    $(".header-main")[CLICK](function () {
+        history.go(-1)
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.classify-nav {
+  margin-bottom: inherit;
+}
+.classify-nav {
+  padding: 0;
+  height: 1.015625rem;
+  font-size: 0;
+  overflow: hidden;
+}
+.classify-nav a {
+  display: inline-block;
+  line-height: 1.015625rem;
+  font-size: 0.34375rem;
+  color: #616161;
+}
+.classify-nav .active {
+  color: #db3652;
+}

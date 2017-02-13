@@ -1,0 +1,121 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<i class="icon-home"></i>
+```
+*/
+.icon-icon-Fireworks {
+  background-image: url(icons.png);
+  background-position: 0px -235px;
+  width: 32px;
+  height: 31px;
+}
+.icon-icon-Geography {
+  background-image: url(icons.png);
+  background-position: 0px -499px;
+  width: 32px;
+  height: 38px;
+}
+.icon-icon-Label {
+  background-image: url(icons.png);
+  background-position: 0px -298px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon-Set {
+  background-image: url(icons.png);
+  background-position: 0px -266px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icon-Trophy {
+  background-image: url(icons.png);
+  background-position: 0px -174px;
+  width: 34px;
+  height: 30px;
+}
+.icon-icon-add {
+  background-image: url(icons.png);
+  background-position: 0px -204px;
+  width: 31px;
+  height: 31px;
+}
+.icon-icon-case {
+  background-image: url(icons.png);
+  background-position: 0px -463px;
+  width: 36px;
+  height: 36px;
+}
+.icon-icon-down {
+  background-image: url(icons.png);
+  background-position: 0px 0px;
+  width: 10px;
+  height: 8px;
+}
+.icon-icon-gift {
+  background-image: url(icons.png);
+  background-position: 0px -330px;
+  width: 36px;
+  height: 32px;
+}
+.icon-icon-happy {
+  background-image: url(icons.png);
+  background-position: 0px -144px;
+  width: 32px;
+  height: 30px;
+}
+.icon-icon-identity {
+  background-image: url(icons.png);
+  background-position: 0px -362px;
+  width: 30px;
+  height: 33px;
+}
+.icon-icon-left {
+  background-image: url(icons.png);
+  background-position: 0px -86px;
+  width: 19px;
+  height: 28px;
+}
+.icon-icon-red {
+  background-image: url(icons.png);
+  background-position: 0px -395px;
+  width: 34px;
+  height: 34px;
+}
+.icon-icon-time {
+  background-image: url(icons.png);
+  background-position: 0px -114px;
+  width: 30px;
+  height: 30px;
+}
+.icon-icon-up {
+  background-image: url(icons.png);
+  background-position: 0px -8px;
+  width: 10px;
+  height: 22px;
+}
+.icon-icon-wallet {
+  background-image: url(icons.png);
+  background-position: 0px -537px;
+  width: 36px;
+  height: 38px;
+}
+.icon-iocn-calendar {
+  background-image: url(icons.png);
+  background-position: 0px -429px;
+  width: 34px;
+  height: 34px;
+}
+.icon-iocn-gold {
+  background-image: url(icons.png);
+  background-position: 0px -58px;
+  width: 28px;
+  height: 28px;
+}
+.icon-iocn-money {
+  background-image: url(icons.png);
+  background-position: 0px -30px;
+  width: 38px;
+  height: 28px;
+}

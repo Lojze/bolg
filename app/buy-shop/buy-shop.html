@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="format-detection" content="adress=no">
+    <script src="../public-js/flexible.min.js"></script>
+    <script src="../public-js/zepto.min.js"></script>
+    <link rel="stylesheet" href="../public-css/normalize.css">
+    <link rel="stylesheet" href="buy-shop.min.css">
+</head>
+<body>
+<header class="header-main">
+    <a href="javascript:" class="iconfont icon-fanhui"></a>
+    购物车
+</header>
+<section class="buy-shop-section">
+    <!--数据为空-->
+    <div class="buy-shop-empty">
+        <img src="../public-img/my-duo-header.png" alt="">
+        <h3>你的购物车是空的</h3>
+        <a href="javascript:">立即购买</a>
+    </div>
+    <!--有数据时候-->
+    <div class="buy-shop-data">
+        <div class="buy-shop-data-box">
+            <ul>
+                <li>
+                    <a href="javascript:">
+                        <img src="../public-img/car-big.jpg" alt="">
+                    </a>
+                    <div class="data-box-list">
+                        <h3>宝马730LI领先型</h3>
+                        <p>总需10800人次，剩余<span>3114</span>人次</p>
+                        <div class="box-list-select">
+                            <span class="w-number-btn-minus">-</span>
+                            <input type="text" value="1" pattern="[0-9]*">
+                            <span class="w-number-btn-plus">+</span>
+                        </div>
+                        <p class="red">100元/人次</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:">
+                        <img src="../public-img/car-big.jpg" alt="">
+                    </a>
+                    <div class="data-box-list">
+                        <h3>宝马730LI领先型</h3>
+                        <p>总需10800人次，剩余<span>3114</span>人次</p>
+                        <div class="box-list-select">
+                            <span class="w-number-btn-minus">-</span>
+                            <input type="text" value="1" pattern="[0-9]*">
+                            <span class="w-number-btn-plus">+</span>
+                        </div>
+                        <p class="red">100元/人次</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="shop-btn">
+        <section class="section-b section-w">
+            <p>共计<em>1</em>件商品，总计：<i>100</i><i class="red">元</i></p>
+            <p>夺宝有风险，参与需谨慎</p>
+        </section>
+        <div class="btn-shop section-b">
+            结算
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-box">
+        <a href="../index/index.html">
+            <div class="footer-icon iconfont icon-shouye-copy">
+            </div>
+            <p>首页</p>
+        </a>
+        <a href="../classify/classify.html">
+            <div class="footer-icon iconfont icon-suoyou"></div>
+            <p>所有商品</p>
+        </a>
+        <a href="../found/found.html">
+            <div class="footer-icon iconfont icon-faxian"></div>
+            <p>发现</p>
+        </a>
+        <a class="red" href="../buy-shop/buy-shop.html">
+            <div class="footer-icon iconfont icon-iconfont02"></div>
+            <p>购物车</p>
+        </a>
+        <a href="../personal/personal.html">
+            <div class="footer-icon iconfont icon-wode"></div>
+            <p>我的</p>
+        </a>
+    </div>
+</footer>
+<script src="../public-js/main.js"></script>
+</body>
+</html>

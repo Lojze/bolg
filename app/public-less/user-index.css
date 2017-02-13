@@ -1,0 +1,83 @@
+.user-header {
+  position: relative;
+  background: #de0d3e;
+  text-align: center;
+  color: #fff;
+  font-size: 0.46875rem;
+  line-height: 1.09375rem;
+}
+.user-header a {
+  position: absolute;
+  top: 0rem;
+  left: 0.46875rem;
+  font-size: 0.546875rem;
+  color: #fff;
+  line-height: 1.09375rem;
+}
+.user-section ul {
+  border-bottom: 1px solid #d6d6d6;
+  background: #fff;
+}
+.user-section ul:first-child {
+  padding-top: 0.3125rem;
+}
+.user-section ul li {
+  margin-left: 0.46875rem;
+  line-height: 1.28125rem;
+  border-bottom: 1px solid #edeff2;
+  overflow: hidden;
+}
+.user-section ul li:first-child {
+  padding-bottom: 0.15625rem;
+}
+.user-section ul li:last-child {
+  border-bottom: none;
+}
+.user-top {
+  margin-bottom: 0.46875rem;
+}
+.user-section .user-bom {
+  border-top: 1px solid #d6d6d6;
+  border-bottom: none;
+}
+.user-span-l {
+  color: #000;
+  float: left;
+}
+.user-span-l,
+.user-span-r {
+  line-height: 1.28125rem;
+  font-size: 0.34375rem;
+  width: 50%;
+}
+.user-span-r {
+  float: right;
+  overflow: hidden;
+  text-align: right;
+  width: 45%;
+  margin-right: 5%;
+}
+.user-span-r a {
+  float: right;
+}
+.user-span-r a img {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.user-prompt {
+  font-size: 0.3125rem;
+  line-height: 0.46875rem;
+  color: #80774f;
+  background: #fffae0;
+  padding: 0.234375rem;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+.user-title {
+  padding: 0.625rem 0.234375rem 0.390625rem 0.234375rem;
+  background: #fff;
+  font-size: 0.3125rem;
+}

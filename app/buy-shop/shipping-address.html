@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>奖品详情</title>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="format-detection" content="adress=no">
+    <script src="../public-js/flexible.min.js"></script>
+    <script src="../public-js/zepto.min.js"></script>
+    <link rel="stylesheet" href="../public-css/normalize.css">
+    <link rel="stylesheet" href="buy-shop.min.css">
+    <link rel="stylesheet" href="../public-css/swiper.min.css">
+</head>
+<body>
+<header class="header-main">
+    <a href="javascript:" class="iconfont icon-fanhui"></a>
+    收货地址
+</header>
+<section class="shipping-address-section">
+    <!--用户没有地址时-->
+    <div class="shipping-address-null" style="display: none">
+        <img src="../public-img/address.jpg" alt="">
+        <h3>暂无收货地址，立即添加</h3>
+        <p>完善收货信息，确保信息的准确性</p>
+        <p class="last">以便于中奖产品及时配送，送到您手中</p>
+        <a href="javascript:void(0)">添加收货地址</a>
+    </div>
+    <!--用户管理list-->
+    <div class="shipping-address-list">
+        <div class="shipping-list active">
+            <div class="shipping-title clearfix">
+                <span>收货人：张三</span>
+                <span>18858859583</span>
+            </div>
+            <div class="shipping-ad">
+                收货地址：江苏省南京市浦口区高新技术开发区 星火路软件大厦
+                B座6楼
+            </div>
+            <i class="iconfont icon-unif063"></i>
+        </div>
+        <div class="shipping-list">
+            <div class="shipping-title clearfix">
+                <span>收货人：张三</span>
+                <span>18858859583</span>
+            </div>
+            <div class="shipping-ad">
+                收货地址：江苏省南京市浦口区高新技术开发区 星火路软件大厦
+                B座6楼
+            </div>
+        </div>
+    </div>
+    <div class="shipping-address-footer">
+        <p>添加新地址</p>
+    </div>
+</section>
+<script src="../public-js/main.js"></script>
+</body>
+</html>
