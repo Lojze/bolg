@@ -10,7 +10,6 @@
 ## 个人信息
 
 *	王立宇/男/1990
-*	大专/南京财经大学
 *	工作年限：2年
 *	博客：https://github.com/Lojze/bolg
 *	Github:https://github.com/Lojze/
@@ -29,7 +28,7 @@
 [官网](http://www.dotda.cn/) 
 
 #### 点达夺宝项目
-源码地址：https://github.com/Lojze/bolg/tree/master/app
+源码地址：http://lojze.github.io/bolg/app/index/index.html (因其他原因项目终止)
 h5端，前端/后台页面编写，交互功能，代码优化，到最后的上线，以及维护，在页面功能交互上与UI，产品沟通，学习到很多方便用户的方式。该项目支持多种支付方式，与后台小哥研究一个月的时间，学习api，测试，攻克了这个难题。在这个项目中学到数据与交互分开的方式，这样更利于代码的管理，学习了datatable这款插件，在学习api的过程中了解更好的编写方式，对于以后的编写很有帮助，以及推广了该插件运用到其他后台中。
     
 #### 付霸项目
