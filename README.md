@@ -29,9 +29,6 @@
 *  [jPlayer](http://jplayer.org/) h5 完美兼容ie6，`视频``音频`
 *  [echart](http://echarts.baidu.com/)图标类插件，支持pc和web
 
-## 框架
-* [ionichina中文社区](http://ionichina.com/) 混合式开发app的框架很强大
-* [nodejs中文社区](http://cnodejs.org) nodejs中文社区
 
 ## 更好的链接新世界
 * [Shadowsocks-win-2.5.6](http://cdn.ssspeed.net/rjShadowsocks-win-2.5.6.zip)使用工具 
