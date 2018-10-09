@@ -1,0 +1,19 @@
+{
+  "name": "bolg",
+  "version": "1.0.0",
+  "description": "博客搬到GitHub issue了，点此阅读：",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lojze/bolg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lojze/bolg/issues"
+  },
+  "homepage": "https://github.com/Lojze/bolg#readme"
+}
