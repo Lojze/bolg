@@ -1,0 +1,68 @@
+<section class="hero is-info is-large">
+    <div class="hero-head">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+                    </a>
+                    <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navbarMenuHeroB" class="navbar-menu">
+                    <div class="navbar-end">
+                        {% if ctx.session.user.isAdmin %}
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="/category">分类</a>
+                        </div>
+                        {% endif %}
+                        {% if ctx.session.user %}
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="/posts/new">写文章</a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="/user/{{ctx.session.user.name}}">{{ctx.session.user.name}}</a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="/signout">退出</a>
+                        </div>
+                        {% else %}
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="/signup">注册</a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="navbar-item" href="/signin">登录</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <p class="title">
+                CHRIS HOLDER
+            </p>
+        </div>
+    </div>
+
+    <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+            <!-- <div class="container">
+                <ul>
+                    <li class="is-active">
+                        <a href="/">主页</a>
+                    </li>
+                    <li>
+                        <a href="/about">关于</a>
+                    </li>
+                </ul>
+            </div> -->
+        </nav>
+    </div>
+</section>

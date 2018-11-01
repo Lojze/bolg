@@ -1,0 +1,20 @@
+{% extends 'views/base.html' %}
+{% block body %}
+{% include "views/components/header.html" %}
+<div class="container margin-top">
+    <div class="columns">
+        <div class="column is-8 is-offset-2">
+            {% for post in posts %}
+            <div class="card">
+                <div class="card-content">
+                    <div class="content">
+                        <a href="/posts/{{post._id}}">{{post.title}}</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}
