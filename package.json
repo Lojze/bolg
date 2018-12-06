@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "server":"Mongod",
+    "server": "Mongod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
